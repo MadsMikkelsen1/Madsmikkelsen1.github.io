@@ -300,6 +300,9 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.cv-title {
+		color: #179ef3e7; 
+	}
 /* Form */
 
 	form {
@@ -718,6 +721,26 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+		}
+
+		.figure-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px; /* Adjust the gap as needed */
+		}
+		
+		.figure-container .image {
+			flex: 1 1 calc(50% - 20px); /* Two images per row, accounting for gap */
+			text-align: center;
+		}
+		
+		.figure-container .full-width {
+			flex: 0 0 100%; /* Full width image */
+		}
+		
+		.figure-container .image img {
+			width: 100%; /* Ensure images are responsive */
+			height: auto;
 		}
 
 /* List */

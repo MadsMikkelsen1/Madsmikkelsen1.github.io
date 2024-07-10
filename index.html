@@ -11,6 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			hr{
+			border: none;
+			height: 2px;
+			background-color: #ffffff;
+			margin: 20px 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -24,17 +32,17 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Welcome!</h1>
+								<h1>Welcome! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/></h1>
 								<p>To my personal place for showcasing my various study and <br> freetime related projects alongside my abilities. </p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About Me</a></li>
-								<li><a href="#curriculum_vitae">Curriculum Vitae</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#intro"><i class="fas fa-sun"></i> INTRO</a></li>
+								<li><a href="#about"><i class="fas fa-user"></i> ABOUT ME</a></li>
+								<li><a href="#work"> <i class="fas fa-briefcase"></i> WORK</a></li>
+								<li><a href="#curriculum_vitae"><i class="fas fa-graduation-cap"></i> CV</a></li>
+								<li><a href="#contact"><i class="fas fa-address-card"></i> CONTACT</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -46,11 +54,21 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pexels-felix-mittermeier-1146134.jpg" alt="" /></span>
+								<span class="image main"><img src="images/Mads_Teide.jpeg" alt="" /></span>
 								<p> This website is intended to host different kinds of projects that I am engaged in - whether it is related to my education or simply something I fancy doing in my spare time. <br>
 									I plan on using this website as a way of showcasing my abilities with coding as a reminder of where I started and how far I have reached. In other words, it is strictly a personal site that can function as a timeline for my work and skills.
 								</p>
-								<p>You can check out my work by guiding to the "Work" tab or simply by pressing the following link: <a href="#work">WORK</a></p>
+								<p>You can read more <a href="#about">about me here</a> or check out my work by guiding to the "Work" tab or simply by pressing the following link: <a href="#work">Work</a></p>
+
+								<hr>
+
+								<ul class="actions">
+									<li><a href="#about" class="button icon solid fa-user">ABOUT ME</a></li>
+									<li><a href="#work" class="button icon solid fa-briefcase">WORK</a></li>
+									<li><a href="#curriculum_vitae" class="button icon solid fa-graduation-cap">CV</a></li>
+									<li><a href="#contact" class="button icon solid fa-address-card">CONTACT</a></li>
+									<li><a href="#intro" class="button primary">TOP</a></li>
+								</ul>
 							</article>
 
 						<!-- Work -->
@@ -59,42 +77,225 @@
 								<h3>Project #1 - Single-component Universes</h3>
 									<p>This first semester astrophysics project is a simple code showing the inflation and evolution of the universe consisting only of either; <em>matter</em>, <em>radiation</em> or <em>dark energy.</em></p>
 								<a href="https://github.com/MadsMikkelsen1/Astro-projekt" target="_blank" rel="noopener noreferrer">
-									<span class="=image main"><img src="images/Stof.pdf" alt="Single-component Universe" width="500"/></span>
-								</a>
+									<span class="=image main"><img src="images/Stof.pdf" alt="Single-component Universe" width="540"/></span> </a>
+								
 								<h3>Project #2 - ODE-Solver and the SIR Model</h3>
 									<p>This second semester project was done during the COVID-19 pandemic in 2020-2021 and illustrates the spread of an infectious disease within a community. It solves three single order differential equations (the SIR-model) and shows the expected number/rate of infected people in a community.</p>
 								<a href="https://github.com/MadsMikkelsen1/StatFys-SIR" target="_blank" rel="noopener noreferrer">
-									<span class="=image main"><img src="images/SIR.pdf" alt="SIR Model" width="740"/></span>
-								</a>
+									<span class="=image main"><img src="images/SIR.pdf" alt="SIR Model" width="540"/></span> </a>
+
+								<a href="https://github.com/MadsMikkelsen1/Aperture_Photometry" target="_blank" rel="noopener noreferrer">><h3>Project #3 - Aperture photometry from FITS</h3></a>
+								<p> During my 5th semester, I attempted to create a simple Python script that performs aperture photometry on a given set of FITS files. </p>
+
+								<h3>Project #4 - Observation and color images using FUT</h3>
+								<p>Throughtout my Bachelor's Degree at Aarhus University, I was part of a study group that worked with and taught high school students about
+								observational astronomy and relevant data analysis. This was done using Aarhus University's remote controlled telescope located at Mt. Kent in Australia.
+								This allowed me to plan and perform observations of astronomical objects and create stunning images together with one of my good friends, Magnus Uggerhøj.
+								The objects observed and the images created can be seen below.
+								
+								<div class="figure-container">
+									<figure class="image">
+										<img src="images/FUT/Helix.JPG" alt="" width="270" height="240"/>
+										<figcaption>Helix Nebula</figcaption>
+									</figure>
+									<figure class="image">
+										<img src="images/FUT/Trifid.jpeg" alt="" width="270" height="240"/>
+										<figcaption>Trifid Nebula</figcaption>
+									</figure> 
+									<figure class="image">
+										<img src="images/FUT/Jupiter.PNG" alt="" width="270" height="240"/>
+										<figcaption>Jupiter</figcaption>
+									</figure> 
+									<figure class="image">
+										<img src="images/FUT/Orion.jpg" alt="" width="270" height="240"/>
+										<figcaption>Orion Nebula</figcaption>
+									</figure> 
+									<figure class="image">
+										<img src="images/FUT/Pillars_1.JPG" alt="" width="270" height="240"/>
+										<figcaption>First attempt of Pillars of Creation</figcaption>
+									</figure>
+									<figure class="image">
+										<img src="images/FUT/Pillars of Creation.jpg" alt="" width="270" height="240"/>
+										<figcaption>Latest attempt of Pillars of Creation</figcaption>
+									</figure>
+									<figure class="image">
+										<img src="images/FUT/Horsehead.PNG" alt="" width="540" height="240"/>
+										<figcaption>Horsehead Nebula</figcaption>
+									</figure>
+								</div>
+
+								<h3>Project #5 - Bachelor's Project</h3>
+								<p>My final year project was supervised by Dr. Sergio Ioppolo and was titled <a href="Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium - Mads Mikkelsen BSc.pdf"
+									target="_blank" download="Formation_of_Solid_Methyl_Formate.pdf"><i> Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium </i></a>. It was my first step into the world of laboratory astrochemistry
+									where I learned about (non-)energetic ice processing and the formation of complex organic molecules on icy dust grains in the Interstellar Medium.
+									I accompanied active PhD-students, Post Docs and professors in performing experiments on ice analogues irradiated with 1 MeV and 0.2 MeV ions and 200 keV electron performed at ATOMKI at the HUN-REN Institute for Nuclear Research in Debrecen, Hungary. 
+									Because of this oppotunity I have been an active part of performing some of the additional experiments, including VUV-UV experiments performed at ASTRID2 at the Department of Physics and Astronomy in Aarhus, Denmark.
+									This was also the project that sparked the oppotunity to write my first, first-author paper on the formation of ethanol via ion and electron irradiation of pure and mixed interstellar relevant ice analogues at 1 and 0.2 MeV ions and 200 keV electrons, respectively.		
+									</p>
+
+								<hr>
+
+								<ul class="actions">
+									<li><a href="#intro" class="button icon solid fa-sun">INTRO</a></li>
+									<li><a href="#about" class="button icon solid fa-user">ABOUT ME</a></li>
+									<li><a href="#curriculum_vitae" class="button icon solid fa-graduation-cap">CV</a></li>
+									<li><a href="#contact" class="button icon solid fa-address-card">CONTACT</a></li>
+									<li><a href="#work" class="button primary">TOP</a></li>
+								</ul>
 							</article>
 
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About Me</h2>
-								<span class="image main"><img src="images/pexels-felix-mittermeier-1205301.jpg" alt="" /></span>
+								<figure class="image main">
+									<img src="images/TeideObservatory.jpeg" alt="Teide Observatory located in Tenerife, Spain" height="200"/>
+									<figcaption>Teide Observatory located in Tenerife, Spain</figcaption>
+								</figure>
 								<p>Hello! <br> <br>
-								I am a 25 years old physicist from Denmark. I graduated from Silkeborg Gymnasium in 2018 where my main courses were physics, mathematics, chemistry and Spanish.
+								I am a <span id="age"></span> years old physicist from Denmark. I graduated from Silkeborg Gymnasium in 2018 where my main courses were physics, mathematics, chemistry and Spanish.
 								After finishing high school, I enlisted at the Queen's Guard and served for eight months. Subsequently, I traveled abroad to Asia to discover new cultures, religions and connections. <br>
+								<br>
 								I graduated from Aarhus University, Denmark with a Bachelor's Degree in physics and astronomy. I decided to move to Tenerife, Spain to try new ways and experiences and fell in love with the island and its people. <br>
-								Because of that I decided to pursue my Master's Degree in astrophysics at the University of La Laguna with a speciality in observational and instrumentational astronomy. <br> <br>
-
+								Because of that I decided to pursue my Master's Degree in astrophysics at the University of La Laguna with a speciality in observational and instrumentational astronomy. <br>
+								<br>
+								Throughout my education I have taken a lot of courses in astronomy and astrophysics. This has lead me to unique experiences, such as visiting the observatories at La Palma and Tenerife. I have gotten detailed descriptions and tours of Aarhus University's optical telescope located at La Palma (NOT) and their telescope located at Teide Observatory. 
+								<div class="figure-container">
+									<figure class="image">
+										<img src="images/NOT_selfie.jpeg" alt="" width="270" height="240"/>
+										<figcaption>Seflie taken at the main mirror of the NOT (Nordic Optical Telescope) in La Palma, Spain</figcaption>
+									</figure>
+									<figure class="image">
+										<img src="images/SONG_selfie.jpeg" alt="" width="270" height="240"/>
+										<figcaption>Selfie taken at the main mirror of the SONG telecope at Teide Observatory, Tenerife, Spain</figcaption>
+									</figure>
+								</div>
+								<br>
+								During my final year undergrad project, I was invited by my supervisor, Dr. Sergio Ioppolo, 
+								to ATOMKI at the HUN-REN Institute for Nuclear Research in Debrecen, Hungary. 
+								Here I assisted with laboratory astrochemstry experiments which gave me invaluable experience in how to
+								work in an active research field and how to collaborate with multiple researchers and professors.
+								My final project was titled <a href="Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium - Mads Mikkelsen BSc.pdf"
+								target="_blank" download="Formation_of_Solid_Methyl_Formate.pdf"><i> Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium </i></a>
+								and can be downloaded via clicking the name or in the <a href="#work">Work</a> or <a href="#curriculum_vitae">Curriculum Vitae</a> tab.
 								
-								<br> <br> Feel free to have a look around or <a href="#contact">contact</a> me either via e-mail or on any of the links provided.
+								<figure class="image main">
+									<img src="images/ATOMKI.jpeg" alt="" height="350"/>
+									<figcaption>March 2023 ATOMKI team.</figcaption>
+								</figure>
+								Feel free to have a look around or <a href="#contact">contact</a> me either via e-mail or on any of the links provided.
 								<br> <br>
 								- Mads Mikkelsen
 								</p>
+								<hr>
+
+								<ul class="actions">
+									<li><a href="#intro" class="button icon solid fa-sun">INTRO</a></li>
+									<li><a href="#work" class="button icon solid fa-briefcase">WORK</a></li>
+									<li><a href="#curriculum_vitae" class="button icon solid fa-graduation-cap">CV</a></li>
+									<li><a href="#contact" class="button icon solid fa-address-card">CONTACT</a></li>
+									<li><a href="#about" class="button primary">TOP</a></li>
+								</ul>
 							</article>
 
 						<!-- Curriculum Vitae -->
 						<article id="curriculum_vitae">
-							<h2 class="major">Curriculum Vitae</h2>
-							<span class="image main"><img src="images/pexels-felix-mittermeier-1205301.jpg" alt="" /></span>
-						</article>
+							<a href="CV.pdf"
+								target="_blank" download="CV_Mads_Mikkelsen.pdf"><h2 class="major">Curriculum Vitae</h2></a>
+								<a href="CV.pdf"
+								target="_blank" download="CV_Mads_Mikkelsen.pdf"><sup>Click to download</sup></a> <br>
+							<h3 class="major"><i class="fas fa-graduation-cap"></i> Education</h3>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Year</th>
+											<th>Description</th>
+											<th>Place</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>2024-2026</td>
+											<td>Master's Degree in Astrophysics</td>
+											<td>University of La Laguna</td>
+										</tr>
+										<tr>
+											<td>2020-2023</td>
+											<td>Bachelor's Degree in Physics and Astronomy</td>
+											<td>Aarhus University</td>
+										</tr>
+										<tr>
+											<td>2018-2019</td>
+											<td>Military Service</td>
+											<td>The Royal Guard</td>
+										</tr>
+										<tr>
+											<td>2015-2018</td>
+											<td>High School</td>
+											<td>Silkeborg Gymnasium</td>
+										</tr>
+									</tbody>
+									</tfoot>
+								</table>
+							</div>
+						<h3 class="major"><i class="fas fa-book-open"></i> Publications</h3>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Year</th>
+										<th>Title</th>
+										<th>Authors</th>
+										<th>Journal</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2024</td>
+										<td>Electron and Ion Processing of Pure and Mixed Interstellar Relevant Ices -- In Prep.</td>
+										<td>Mikkelsen <i>et al.</i> </td>
+										<td>Astronomy & Astrophysics</td>
+									</tr>
+									<tr>
+										<td>2024</td>
+										<td>Electron induced formation of methyl formate and its isomers: A systematic FTIR and VUV spectroscopic study</td>
+										<td>Traspas Muina <i>et al.</i> </td>
+										<td>Astronomy & Astrophysics</td>
+									</tr>
+									<tr>
+										<td>2024</td>
+										<td>Proton induced formation of methyl formate and its isomers: a systematic FTIR spectroscopic study</td>
+										<td>Traspas Muina <i>et al.</i> </td>
+										<td>Astronomy & Astrophysics</td>
+									</tr>
+									<tr>
+										<td>2023</td>
+										<td><a href="Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium - Mads Mikkelsen BSc.pdf"
+											target="_blank" download="Formation_of_Solid_Methyl_Formate.pdf"><i>
+											Formation of Solid Methyl Formate and its Isomers in the Interstellar Medium </i></a></td>
+										<td>Mads Mikkelsen (Supervised by Dr. Sergio Ioppolo)</td>
+										<td>Bachelor's Thesis</td>
+									</tr>
+								</tbody>
+								</tfoot>
+							</table>
+						</div>
+						<hr>
+
+						<ul class="actions">
+							<li><a href="#intro" class="button icon solid fa-sun">INTRO</a></li>
+							<li><a href="#about" class="button icon solid fa-user">ABOUT ME</a></li>
+							<li><a href="#work" class="button icon solid fa-briefcase">WORK</a></li>
+							<li><a href="#contact" class="button icon solid fa-address-card">CONTACT</a></li>
+							<li><a href="#curriculum_vitae" class="button primary">TOP</a></li>
+						</ul>
+					</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
+								<p>I am currently working on setting up a secure php etc. to properly send emails via this website. Until that is fixed, please use my email address from my <a href="#curriculum_vitae">CV</a></p>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -121,6 +322,15 @@
 									<li><a href="https://www.instagram.com/thenotofficialmads/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://github.com/MadsMikkelsen1" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
+								<hr>
+
+								<ul class="actions">
+									<li><a href="#intro" class="button icon solid fa-sun">INTRO</a></li>
+									<li><a href="#about" class="button icon solid fa-user">ABOUT ME</a></li>
+									<li><a href="#work" class="button icon solid fa-briefcase">WORK</a></li>
+									<li><a href="#curriculum_vitae" class="button icon solid fa-graduation-cap">CV</a></li>
+									<li><a href="#contact" class="button primary">TOP</a></li>
+								</ul>	
 							</article>
 
 						<!-- Elements -->
@@ -382,6 +592,21 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		
+			<script>
+				function calculateAge(birthDate) {
+					var today = new Date();
+					var birthDate = new Date(birthDate);
+					var age = today.getFullYear() - birthDate.getFullYear();
+					var m = today.getMonth() - birthDate.getMonth();
+					if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+						age--;
+					}
+					return age;
+				}
+		
+				document.getElementById('age').textContent = calculateAge('1999-06-19');
+			</script>
 
 	</body>
 </html>
